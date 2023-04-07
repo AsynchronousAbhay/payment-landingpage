@@ -1,0 +1,251 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(233, 233, 98, 0.87);
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.centre{
+    width: 70%;
+    height: 76%;
+    position: absolute ;
+    top: 2%;
+    border-radius: 11px;
+    box-shadow: 5px -5px 5px rgb(122, 118, 118);
+    display: flex;
+    
+}
+
+nav{
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    border-top-left-radius: 11px;
+    border-bottom-left-radius: 11px;
+    display: felx;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading{
+    display: flex;
+    /* background-color: red; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.heading > h1{
+    margin: 1vmax 0;
+    font: 200 1.3vmax "Ibarra Real Nova";
+}
+
+.heading >span{
+    margin-top: -0.5vmax;
+    font: 200 1.3vmax "Ibarra Real Nova";
+}
+
+.heading > img{
+    height: 220px;
+    width: 180px;
+    margin: 1.6vmax 0 1vmax 0 ;
+    border-radius: 6px;
+    box-shadow: 2px 2px 5px rgb(122, 118, 118);
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 1vmax;
+}
+
+.images > img{
+    height: 90px;
+    width: 80px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 5px rgb(122, 118, 118);
+}
+
+section{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+}
+
+.icons{
+    border-top-right-radius: 11px;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 0.5vmax;
+}
+.visa{
+    width: 90px;
+}
+
+.paypal{
+    width: 100px;
+    margin-left: 1.8vmax;
+}
+
+.mastercard{
+    width: 200px;;
+}
+
+.inputs{
+    height: 85%;
+    width: 100%;
+    background-color: white;
+    border-bottom-right-radius: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 9vmax;
+}
+
+
+hr{
+    margin-bottom: 2vmax;
+    border-radius: 5px;
+    background-color: #41da92;
+    width: 66%;
+    height: 0.5%;
+    border: none;
+}
+
+.ptag{
+    line-height: 160%;
+    color: tomato;
+}
+
+span{
+    color: black;
+}
+
+.date_hr{
+    width: 25%;
+    height: 0.5%;
+}
+
+.cvv{
+    position: absolute;
+    top: 59.9%;
+    left: 70%;
+}
+
+.cvv_hr{
+    position: absolute;
+    top: 71.2%;
+    left: 70%;
+    width: 13.6%;
+    height: 0.4%;
+}
+
+button{
+    font: 400 1.2vmax "montserrat";
+    margin: 1vmax 0 0 9vmax;
+    padding: 0.7vmax 2vmax;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 21px;
+
+}
+
+footer{
+    overflow: hidden;
+    width: 20vmax;
+    height: 8vmax;
+    /* background-color: red; */
+    position: absolute;
+    top: 82%;
+    left: 15%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.text_img{
+    margin: 0 0.5vmax;
+    width: 30px;
+    height: 30px;
+}
+
+.text_1{
+    display: flex;
+    margin-bottom: 0.4vmax;
+    font: 300 2vmax "Jim Nightshade";
+}
+
+.text_2_1{
+    font: 200 1.3vmax "Ibarra Real Nova";
+}
+
+.text_2_2{
+    font: 400 1vmax "montserrat";
+}
+
+.circle_color{
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+
+.box{
+   width: 1.5vmax;
+   height: 1.5vmax;
+    margin: 1vmax 0.3vmax;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.box1{
+    background-color: #41da92;
+}
+
+.box2{
+    background-color: rgb(255, 251, 44);
+}
+
+.box3{
+    background-color: rgb(231, 53, 22);
+}
+
+.box4{
+    background-color: rgb(236, 141, 15);
+}
+
+.box5{
+    background-color: rgb(0, 243, 130);
+}
+
+.box6{
+    background-color: rgb(106, 114, 110);
+}
+
+
